@@ -17,7 +17,6 @@
 <body>
 
 
-
     <nav>
 
         <ul>
@@ -168,6 +167,30 @@
 
             <p> <a href="mailto:bwe2409@gmail.com" class="button">Email me</a></p>
         </section>
+
+        <h2>Or, Fill the form</h2>
+
+        <div class="container">
+            <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES
+              " method="POST">
+                <input type="hidden" name="send_to" value="endoemo124@gmail.com">
+                <fieldset>
+                    <legend>About you</legend>
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Feel Free to send a comment</legend>
+                    <label for="comments">Comment </label>
+                    <textarea name="comments" id="comments"></textarea>
+                </fieldset>
+
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
     </div>
 
     <div class="gradient"></div>

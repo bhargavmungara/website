@@ -300,3 +300,66 @@ footer ul {
     justify-content: flex-start;
   }
 }
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+label {
+  display: block;
+  text-align: left;
+  position: relative;
+  left: 50px;
+  padding-bottom: 0.3rem;
+}
+
+input {
+  /* padding-right: 10rem; */
+  border-radius: 5px;
+  text-align: left;
+  padding: 0 3rem 1.2rem 0.3rem;
+}
+
+input,
+textarea {
+  transform: translate(100px, -3px);
+  font-family: var(--sans);
+  font-size: 1.1rem;
+}
+
+textarea {
+  height: 10rem;
+  width: 20rem;
+  border-radius: 6px;
+}
+
+fieldset {
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--aqua);
+  color: gold;
+}
+
+.submit {
+  background-color: var(--magenta);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 0.6rem 1.7rem 0.6rem 0.8rem;
+  font-size: 1.3rem;
+  position: relative;
+  left: 70px;
+  font-family: var(--mono);
+  margin-top: 0.4rem;
+}
+
+.submit:hover {
+  background-color: var(--hotmag);
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+}
